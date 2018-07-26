@@ -4,8 +4,7 @@
     <!-- begin row -->
     <div class="row row-horizon">
         <!-- begin col-3 -->
-        <div class="col-md-3">
-
+        <div class="col-md-4" style="max-height: 85vh;overflow-y: scroll">
             <%-- COLUMN HEADING --%>
             <div style="background-color: #ff931e; height: 45px;">
                 <div style="display: table; width: 100%">
@@ -23,115 +22,116 @@
             </div>
             <br>
             <%-- COLUMN HEADING END --%>
-
-            <!-- begin panel -->
-            <div class="panel panel-inverse" data-sortable-id="ui-typography-1">
-                <div class="panel-heading" style="background-color: transparent; height: 25px">
-                    <h4>Create Kanban Board</h4>
-                </div>
-                <hr>
-                <div class="row">
-                    <div class="col-md-12" style="text-align: right">
-                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
-                        <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
+            <div>
+                <!-- begin panel -->
+                <div class="panel panel-inverse" data-sortable-id="ui-typography-1">
+                    <div class="panel-heading" style="background-color: transparent; height: 25px">
+                        <h4>Create Kanban Board</h4>
                     </div>
-                </div>
-                <div class="panel-body">
+                    <hr>
                     <div class="row">
-                        <div class="col-md-3">
-                            <a href="email_detail.html" class="email-user">
-                                <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
-                            </a>
+                        <div class="col-md-12" style="text-align: right">
+                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
+                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
                         </div>
-                        <div class="col-md-9">
-                            Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="email_detail.html" class="email-user">
+                                    <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- end panel -->
+                <!-- begin panel -->
+                <div class="panel panel-inverse" data-sortable-id="ui-typography-2">
+                        <div class="panel-heading" style="background-color: transparent; height: 25px">
+                            <h4>Create Kanban Board</h4>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12" style="text-align: right">
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="email_detail.html" class="email-user">
+                                        <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- end panel -->
+                <!-- begin panel -->
+                <div class="panel panel-inverse" data-sortable-id="ui-typography-3">
+                        <div class="panel-heading" style="background-color: transparent; height: 25px">
+                            <h4>Create Kanban Board</h4>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12" style="text-align: right">
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="email_detail.html" class="email-user">
+                                        <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- end panel -->
+                <!-- begin panel -->
+                <div class="panel panel-inverse" data-sortable-id="ui-typography-4">
+                        <div class="panel-heading" style="background-color: transparent; height: 25px">
+                            <h4>Create Kanban Board</h4>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-12" style="text-align: right">
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
+                                <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <a href="email_detail.html" class="email-user">
+                                        <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="col-md-9">
+                                    Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            <!-- end panel -->
             </div>
-            <!-- end panel -->
-            <!-- begin panel -->
-            <div class="panel panel-inverse" data-sortable-id="ui-typography-2">
-                    <div class="panel-heading" style="background-color: transparent; height: 25px">
-                        <h4>Create Kanban Board</h4>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-12" style="text-align: right">
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <a href="email_detail.html" class="email-user">
-                                    <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="col-md-9">
-                                Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!-- end panel -->
-            <!-- begin panel -->
-            <div class="panel panel-inverse" data-sortable-id="ui-typography-3">
-                    <div class="panel-heading" style="background-color: transparent; height: 25px">
-                        <h4>Create Kanban Board</h4>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-12" style="text-align: right">
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <a href="email_detail.html" class="email-user">
-                                    <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="col-md-9">
-                                Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!-- end panel -->
-            <!-- begin panel -->
-            <div class="panel panel-inverse" data-sortable-id="ui-typography-4">
-                    <div class="panel-heading" style="background-color: transparent; height: 25px">
-                        <h4>Create Kanban Board</h4>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-12" style="text-align: right">
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-collapse"><i class="fa fa-pencil"></i></a>
-                            <a href="javascript:;" class="btn btn-xs btn-icon btn-circle btn-default" style="font-size: large;color: #4d4d4d" data-click="panel-remove"><i class="fa fa-times"></i></a>
-                        </div>
-                    </div>
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <a href="email_detail.html" class="email-user">
-                                    <img  style="border-radius: 50%; max-width: 100%;height: auto;width: auto\9;" src="/assets/img/user-14.jpg" alt="" />
-                                </a>
-                            </div>
-                            <div class="col-md-9">
-                                Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!-- end panel -->
         </div>
         <!-- end col-3 -->
         <!-- begin col-3 -->
-        <div class="col-md-3">
+        <div class="col-md-4" style="max-height: 85vh;overflow-y: scroll">
 
             <%-- COLUMN HEADING --%>
             <div style="background-color: #ff931e; height: 45px;">
@@ -206,7 +206,7 @@
         </div>
         <!-- end col-3 -->
         <!-- begin col-3 -->
-        <div class="col-md-3">
+        <div class="col-md-4" style="max-height: 85vh;overflow-y: scroll">
 
             <%-- COLUMN HEADING --%>
             <div style="background-color: #ff931e; height: 45px;">
@@ -307,7 +307,7 @@
         </div>
         <!-- end col-3 -->
         <!-- begin col-3 -->
-        <div class="col-md-3">
+        <div class="col-md-4" style="max-height: 85vh;overflow-y: scroll">
 
             <%-- COLUMN HEADING --%>
             <div style="background-color: #ff931e; height: 45px;">

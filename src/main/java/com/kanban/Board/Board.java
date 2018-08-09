@@ -15,13 +15,13 @@ public class Board extends BaseEntity {
 
     public Board() {
     }
-    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,orphanRemoval = true)
-    @JoinColumn(name = "boardId")
-    private Set<Column> columns = new HashSet<>();
-
-    public Set<Column> getColumns(){
-        return columns;
-    }
+//    @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,orphanRemoval = true)
+//    @JoinColumn(name = "boardId")
+//    private Set<Column> columns = new HashSet<>();
+//
+//    public Set<Column> getColumns(){
+//        return columns;
+//    }
     public Long getId(){
         return id;
     }

@@ -27,7 +27,7 @@
 <div id="page-container" class="fade page-without-sidebar page-header-fixed">
     <%-- HEADER  --%>
     <%@ include file="/WEB-INF/jsp/components/header.jsp" %>
-    <br><br>
+    <div style="height: 3.5vh"></div>
     <%-- KANBAN BEGIN --%>
     <%@ include file="/WEB-INF/jsp/components/kanban_base.jsp" %>
     <%-- KANBAN END --%>

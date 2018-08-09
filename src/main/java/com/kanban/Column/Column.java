@@ -26,13 +26,13 @@ public class Column extends BaseEntity {
     }
 
     //    get all cards
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
-    @JoinColumn(name = "columnId")
-    private Set<Card> cards = new HashSet<>();
-
-    public Set<Card> getCards() {
-        return cards;
-    }
+//    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, orphanRemoval = true)
+//    @JoinColumn(name = "columnId")
+//    private Set<Card> cards = new HashSet<>();
+//
+//    public Set<Card> getCards() {
+//        return cards;
+//    }
 
 
 

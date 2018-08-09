@@ -14,7 +14,9 @@
 
     <%--HEADER INCLUDES --%>
     <%@ include file="/WEB-INF/jsp/components/header_includes_head.html" %>
-
+    <%
+        String header_color =   "#4d4d4d";
+    %>
 </head>
 <body style="background-color: #4d4d4d">
     <!-- begin #page-loader -->

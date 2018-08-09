@@ -1,7 +1,7 @@
 <!-- begin #header -->
-<div id="header" class="header navbar navbar-default navbar-fixed-top">
+<div id="header" class="header navbar navbar-default navbar-fixed-top" style="max-height: 2vh">
     <!-- begin container-fluid -->
-    <div class="container-fluid" style="background-color: #0079bf">
+    <div id="header_container" class="container-fluid" style="background-color: #0079bf">
         <!-- begin mobile sidebar expand / collapse button -->
         <div class="navbar-header">
             <a href="/" class="navbar-brand"><span class="navbar-logo"><i class="ion-grid"></i></span> <b style="color: white">Boards</b></a>
@@ -93,7 +93,7 @@
 							<span class="user-image online">
 								<img src="assets/img/user-13.jpg" alt="" />
 							</span>
-                    <span class="hidden-xs">Md Forhad Hossain</span> <b class="caret"></b>
+                    <span class="hidden-xs" style="color: white">Md Forhad Hossain</span> <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu animated fadeInLeft">
                     <li class="arrow"></li>

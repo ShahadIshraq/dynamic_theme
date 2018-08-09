@@ -7,6 +7,9 @@
           <element id="module-output" name="shahad-kanban" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="shahad-kanban-1.0.jar">
+            <element id="module-output" name="shahad-kanban" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.4.2.RELEASE" />

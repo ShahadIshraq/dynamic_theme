@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import org.json.simple.JSONObject;
 
-import static org.springframework.data.repository.init.ResourceReader.Type.JSON;
 
 @Controller
 public class WelcomeController {
@@ -27,12 +26,14 @@ public class WelcomeController {
 		return new ModelAndView("test");
 	}
 
+//	method for testing the dynamic color loading.
 	@RequestMapping("/dlt")
 	public ModelAndView dynamicLoadingTest() {
 		System.out.println("Got into dynamicLoadingTest()");
 		return new ModelAndView("dynamic_loading_test");
 	}
 
+//	Testing jQuery
 	@RequestMapping(value = "/dlt/givedata", method = RequestMethod.GET, produces = "application/json")
 	@ResponseBody
 	public String giveDynamicData() {

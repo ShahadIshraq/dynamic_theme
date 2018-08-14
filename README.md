@@ -1,4 +1,4 @@
-#Dynamic Theme Module
+# Dynamic Theme Module
 The project uses a basic skeleton of a kanban to demonstrate the color changing functionality. The kanban board has no usable functionality of it's self.
 The theme changing module can be understood by going throug the models,controllers and the view. We will discuss them in the following sections.
 

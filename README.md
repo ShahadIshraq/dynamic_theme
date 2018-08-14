@@ -26,7 +26,7 @@ The database connection credentials are specified in
 
 file.
 
-##View, Javascript, jQuery and Ajax
+## View, Javascript, jQuery and Ajax
 The views that are of interest in this case can be found in this directory: 
 > src/main/webapp/WEB-INF/jsp
 

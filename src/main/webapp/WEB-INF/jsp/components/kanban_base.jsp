@@ -1,12 +1,12 @@
 <!-- begin #content -->
-<div id="content" class="content" style="background-color: #e2e4e6;">
+<div id="board_container" class="content" style="background-color: #e2e4e6;">
     <%-- style="background-color: white" --%>
     <!-- begin row -->
     <div class="row row-horizon" style="max-height: 80vh">
         <!-- begin col-3 -->
         <div class="col-md-4" >
             <%-- COLUMN HEADING --%>
-            <div style="background-color: #ff931e; max-height: 7vh;">
+            <div class="column-header-container" >
                 <div style="display: table; width: 100%">
                     <div style="display: table-cell; vertical-align: middle;text-align: center; width: 100% ">
                         <div style="display: inline-block">
@@ -134,7 +134,7 @@
         <!-- begin col-3 -->
         <div class="col-md-4" >
             <%-- COLUMN HEADING --%>
-            <div style="background-color: #ff931e; height:7vh;">
+            <div class="column-header-container" >
                 <div style="display: table; width: 100%">
                     <div style="display: table-cell; vertical-align: middle;text-align: center; width: 100% ">
                         <div style="display: inline-block">
@@ -210,7 +210,7 @@
         <!-- begin col-3 -->
         <div class="col-md-4" >
             <%-- COLUMN HEADING --%>
-            <div style="background-color: #ff931e; height: 7vh;">
+            <div class="column-header-container">
                 <div style="display: table; width: 100%">
                     <div style="display: table-cell; vertical-align: middle;text-align: center; width: 100% ">
                         <div style="display: inline-block">
@@ -261,7 +261,7 @@
         <!-- begin col-3 -->
         <div class="col-md-4" >
             <%-- COLUMN HEADING --%>
-            <div style="background-color: #ff931e; height: 7vh;">
+            <div class="column-header-container" >
                 <div style="display: table; width: 100%">
                     <div style="display: table-cell; vertical-align: middle;text-align: center; width: 100% ">
                         <div style="display: inline-block">

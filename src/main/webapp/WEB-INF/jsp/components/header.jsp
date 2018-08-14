@@ -29,13 +29,16 @@
 
         <!-- begin header navigation right -->
         <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown" >
+                <a href="#modal-message"  data-toggle="modal" title="Theme"><i class="fa fa-adjust fa-2x" ></i></a>
+            </li>
             <li class="dropdown">
-                <a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle icon">
-                    <i class="ion-ios-bell"></i>
-                    <span class="label">5</span>
-                </a>
+                <%--<a href="javascript:;" data-toggle="dropdown" class="dropdown-toggle icon">--%>
+                    <%--<i class="ion-ios-bell"></i>--%>
+                    <%--<span class="label">5</span>--%>
+                <%--</a>--%>
                 <ul class="dropdown-menu media-list pull-right animated fadeInDown">
-                    <li class="dropdown-header">Notifications (5)</li>
+                    <li class="dropdown-header" >Notifications (5)</li>
                     <li class="media">
                         <a href="javascript:;">
                             <div class="media-left"><i class="ion-ios-close-empty media-object bg-red"></i></div>
@@ -102,7 +105,7 @@
                     <li><a href="javascript:;">Calendar</a></li>
                     <li><a href="javascript:;">Setting</a></li>
                     <li class="divider"></li>
-                    <li><a href="javascript:;">Log Out</a></li>
+                    <li><a href="javascript:auth.logout();">Log Out</a></li>
                 </ul>
             </li>
         </ul>

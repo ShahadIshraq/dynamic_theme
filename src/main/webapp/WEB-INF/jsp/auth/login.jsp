@@ -26,6 +26,7 @@
     <!-- ================== BEGIN BASE JS ================== -->
     <script src="/assets/plugins/pace/pace.min.js"></script>
     <!-- ================== END BASE JS ================== -->
+
 </head>
 <body class="pace-top">
 <!-- begin #page-loader -->
@@ -57,7 +58,7 @@
                 </div>
                 <div class="checkbox m-b-20">
                     <label>
-                        <input type="checkbox" /> Remember Me
+                        <input type="checkbox" name="remember" /> Remember Me
                     </label>
                 </div>
                 <div class="login-buttons">

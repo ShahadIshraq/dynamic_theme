@@ -10,27 +10,29 @@ import javax.persistence.Id;
  */
 @Entity
 public class User {
+    public User(String username, String password, String colors) {
+        this.username = username;
+        this.password = password;
+        this.colors = colors;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     protected Long id;
 
     protected String username;
     protected String password;
-    protected String headerColor;
+
+    protected String colors;
 
 
-    public User(String username, String password, String headerColor) {
-        this.username = username;
-        this.password = password;
-        this.headerColor = headerColor;
+
+    public String getColors() {
+        return colors;
     }
 
-    public String getHeaderColor() {
-        return headerColor;
-    }
-
-    public void setHeaderColor(String headerColor) {
-        this.headerColor = headerColor;
+    public void setColors(String colors) {
+        this.colors = colors;
     }
 
 
@@ -65,7 +67,7 @@ public class User {
         String ret = "{";
         ret += "\"id\":\""+Long.toString(id)+"\",";
         ret += "\"username\":\""+username+"\",";
-        ret += "\"headerColor\":\""+headerColor+"\"}";
+        ret += "\"colors\":\""+colors+"\"}";
         return ret;
     }
 

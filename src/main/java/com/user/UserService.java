@@ -25,5 +25,5 @@ public class UserService {
         return userRepository.findOne(id);
     }
 
-    public void updateColor(String color, Long id){userRepository.setHeaderColorById(color, id);}
+    public void updateColor(String colors, Long id){userRepository.setColorsById(colors, id);}
 }
